@@ -44,6 +44,7 @@ Follow these steps to run the project locally:
    git clone https://github.com/your-repo/AZoom-Car-Rental.git
    
 2. **Navigate to the project directory:**
+   ```bash
    cd AZoom-Car-Rental
    
 4. **Open the A1.html file in your browser to view the application.**
