@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AZoom Car Rental</title>
+    <!-- link to css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo"><img src="img/logo.png" alt=""><span>AZoom</span></a>
+
+        <span class="menu" id="menu-icon" onclick="Dropdown()"><img src="img/menu-regular-24.png" alt=""></span>
+
+        <nl class="navbar" onclick="Moveup()">
+            <li><a href="/A1.html#home">Home</a></li>
+            <li><a href="/A1.html#ride">Ride</a></li>
+            <li><a href="/A1.html#services">Services</a></li>
+            <li><a href="/A1.html#about">About</a></li>
+        </nl>
+        <div class="header-btn">
+            <a href="#" class="logout">Log out</a>
+        </div>
+    </header>
+
+    <!-- inspection -->
+    <section class="rent" id="rent">
+        <div class="overallRent">
+            <div class="heading">
+                <span>Cars</span>
+                <h1>Rent Out</h1>
+            </div>
+            <div class="rol">
+                <div class="rent-container">
+
+                    <div class="carDiv">
+                        <div class="img-box">
+                            <img src="img/car1.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <div class="info">
+                                <h1>Audi e-tron</h1>
+                                <h2>Automatic, 5 Seater</h2>
+                                <h3>#123123123</h3>
+                            </div>
+                            <div class="rent-info">
+                                <div class="pickUp">
+                                    <div class="t">Status</div>
+                                    <p class="p">Waiting for inspection</p>
+                                </div>
+                                <div class="return">
+                                    <div class="t">Return Date</div>
+                                    <p class="p">Today</p>
+                                </div>
+                                <div class="duation">
+                                    <div class="t">Damage Done</div>
+                                    <p class="p">
+                                        <select id="return" name="">
+                                        <option >NA</option>
+                                        <option >10%</option>
+                                        <option >20%</option>
+                                        <option >30%</option>
+                                        <option >40%</option>
+                                        <option >50%</option>
+                                        <option >60%</option>
+                                        <option >70%</option>
+                                        <option >80%</option>
+                                        <option >90%</option>
+                                        <option >100%</option>
+                                    </select></p>
+                                </div>
+                                <div class="booking">
+                                    <a href="#" class="btn">Done</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carDiv">
+                        <div class="img-box">
+                            <img src="img/car4.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <div class="info">
+                                <h1>Polestar 1</h1>
+                                <h2>Automatic, 5 Seater</h2>
+                                <h3>#11110000</h3>
+                            </div>
+                            <div class="rent-info">
+                                <div class="pickUp">
+                                    <div class="t">Status</div>
+                                    <p class="p">Rent Out</p>
+                                </div>
+                                <div class="return">
+                                    <div class="t">Return Date</div>
+                                    <p class="p">20/11/2022</p>
+                                </div>
+                                <div class="duation">
+                                    <div class="t">Damage</div>
+                                    <p class="p">
+                                        <select id="return" name="">
+                                        <option >NA</option>
+                                        <option >10%</option>
+                                        <option >20%</option>
+                                        <option >30%</option>
+                                        <option >40%</option>
+                                        <option >50%</option>
+                                        <option >60%</option>
+                                        <option >70%</option>
+                                        <option >80%</option>
+                                        <option >90%</option>
+                                        <option >100%</option>
+                                    </select></p>
+                                </div>
+                                <div class="booking">
+                                    <a href="#" class="btn">Done</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carDiv">
+                        <div class="img-box">
+                            <img src="img/car5.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <div class="info">
+                                <h1>Mercedes Benz EQC</h1>
+                                <h2>Automatic, 5 Seater</h2>
+                                <h3>#00001111</h3>
+                            </div>
+                            <div class="rent-info">
+                                <div class="pickUp">
+                                    <div class="t">Status</div>
+                                    <p class="p">Rent Out</p>
+                                </div>
+                                <div class="return">
+                                    <div class="t">Return Date</div>
+                                    <p class="p">28/11/2022</p>
+                                </div>
+                                <div class="duation">
+                                    <div class="t">Damage</div>
+                                    <p class="p">
+                                        <select id="return" name="">
+                                        <option >NA</option>
+                                        <option >10%</option>
+                                        <option >20%</option>
+                                        <option >30%</option>
+                                        <option >40%</option>
+                                        <option >50%</option>
+                                        <option >60%</option>
+                                        <option >70%</option>
+                                        <option >80%</option>
+                                        <option >90%</option>
+                                        <option >100%</option>
+                                    </select></p>
+                                </div>
+                                <div class="booking">
+                                    <a href="#" class="btn">Done</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <h2>Subscribe to Newsletter</h2>
+        <div class="box">
+            <input type="text" placeholder="Enter Your Email...">
+            <a href="#" class="btn">Subscribe</a>
+        </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#169 AZoom Car Rental 2022. All right Reserved</p>
+        <div class="social">
+            <a href="#"><img src="img/facebook-logo-24.png" alt=""></a>
+            <a href="#"><img src="img/twitter-logo-24.png" alt=""></a>
+            <a href="#"><img src="img/instagram-logo-24.png" alt=""></a>
+        </div>
+    </div>
+
+    <!-- Link To JS -->
+    <script src="code.js"></script>
+</body>
+</html>
