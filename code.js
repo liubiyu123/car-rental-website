@@ -77,7 +77,7 @@ function invoice() {
 
 function Book() {
     alert("Successful book");
-    window.location.href = "/A1.html";
+    window.location.href = "/main.html";
 }
 
 function Invoice() {

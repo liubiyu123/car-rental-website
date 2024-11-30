@@ -47,4 +47,4 @@ Follow these steps to run the project locally:
    ```bash
    cd AZoom-Car-Rental
    
-4. **Open the A1.html file in your browser to view the application.**
+4. **Open the main.html file in your browser to view the application.**
