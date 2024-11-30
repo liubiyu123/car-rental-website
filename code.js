@@ -6,7 +6,9 @@ var onLogin = false;
 
 function Moveup() {
     let navbar = document.querySelector('.navbar');
-    navbar.classList.remove('active');
+    if (navbar) {
+        navbar.classList.remove('active');
+    }
 }
 
 function Dropdown(){
